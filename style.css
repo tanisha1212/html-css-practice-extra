@@ -1,1 +1,190 @@
+/* General Styles */
+body {
+    font-family: 'Cursive', sans-serif;
+    background-color: #ffe6f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #ff99cc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 5px solid #ff66b2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out;
+}
+
+header:hover {
+    background-color: #ff66b2;
+}
+
+/* Main Section Styles */
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Section Styles */
+section {
+    background-color: white;
+    border: 2px solid #ff66b2;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading Styles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fancy', cursive;
+    color: #ff66b2;
+    margin: 0.5em 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    border-bottom: 2px solid #ff66b2;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 1.75em;
+    margin-top: 15px;
+}
+
+h4 {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+h5 {
+    font-size: 1.25em;
+    margin-top: 5px;
+}
+
+h6 {
+    font-size: 1em;
+    color: #666;
+}
+
+/* List Styles */
+ul, ol {
+    margin: 10px 0 20px 20px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+ul li {
+    list-style-type: disc;
+}
+
+ol li {
+    list-style-type: decimal;
+}
+
+/* Paragraph and Text Styles */
+p {
+    margin: 10px 0;
+}
+
+strong {
+    font-weight: bold;
+    color: #ff66b2;
+    text-shadow: 1px 1px 2px #ccc;
+}
+
+em {
+    font-style: italic;
+    color: #ff66b2;
+    text-shadow: 1px 1px 2px #ccc;
+}
+
+/* Link Styles */
+a {
+    color: #ff66b2;
+    text-decoration: none;
+    border-bottom: 2px dashed #ff66b2;
+    transition: color 0.3s ease-in-out, border-bottom-color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #ff99cc;
+    border-bottom-color: #ff99cc;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background-color: #ff99cc;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out;
+}
+
+footer:hover {
+    background-color: #ff66b2;
+}
+
+/* Additional Advanced Styles */
+header, footer, section {
+    border-radius: 15px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
+    color: #ff99cc;
+}
+
+ul, ol {
+    text-align: left;
+    width: 60%;
+}
+
+ul li, ol li {
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+ul li:hover, ol li:hover {
+    color: #ff66b2;
+    transform: translateX(10px);
+}
+
+p:hover {
+    color: #ff66b2;
+    transition: color 0.3s ease-in-out;
+}
 
